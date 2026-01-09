@@ -100,10 +100,29 @@ section h3 {
   color: #555;
 }
 
+.participants-section li span {
+  overflow: hidden;
+}
+
 .participants-section p {
   margin: 0;
   color: #999;
   font-style: italic;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: opacity 0.2s;
+}
+
+.delete-btn:hover {
+  opacity: 0.7;
+  background-color: transparent;
 }
 
 .form-group {
